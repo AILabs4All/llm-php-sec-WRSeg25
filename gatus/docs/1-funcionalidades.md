@@ -12,4 +12,4 @@ A saída padrão será apresentada em formato de tabela com a identificação da
 
 Caso queira obter o formato json retornado pela LLM, ao invés da tabela, adicionar o opção *--json** no comando.
 
-Caso queira definir um modelo específico via parâmetro, mais informações disponíveis em <a href="3-modelos.md">Modelos</a>.
+Caso queira definir um modelo específico via parâmetro, mais informações disponíveis em <a href="2-modelos.md">Modelos</a>.
