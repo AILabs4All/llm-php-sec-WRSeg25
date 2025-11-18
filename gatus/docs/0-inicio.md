@@ -29,7 +29,7 @@ Em caso de dúvidas, a documentação do UV está disponível [aqui](https://doc
 ## :books: Documentação
 
 * <a href="1-funcionalidades.md">1. Funcionalidades </a>
-* <a href="2-modelos.md">3. Modelos </a>
+* <a href="2-modelos.md">2. Modelos </a>
 
 ## :gear: Preparação
 
