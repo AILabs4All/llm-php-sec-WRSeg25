@@ -1,0 +1,1 @@
+Copyright @ 2025 - Adriano Gebert Gomes. Todos os direitos reservados.

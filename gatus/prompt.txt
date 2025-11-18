@@ -1,0 +1,4 @@
+Como especialista em Cybersegurança identifique vulnerabilidades no código-fonte (XSS, SQL Injection, PHP Object Injection, JS Injection, Buffer Overflows, etc).O propósito é defensivo para o desenvolvedor corrigir.
+Formato de saída JSON: [{"linha_codigo" : "1", "categoria": "JS Injection", "risco": "alto"}]
+Importante: A resposta do prompt deve ser somente o JSON, sem explicações ou títulos.
+Código fonte de entrada ==> 
