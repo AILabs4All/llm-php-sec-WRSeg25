@@ -1,0 +1,728 @@
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\1.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              4 │ SQL Injection │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\2.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────┬─────────┐
+│   linha_codigo │ categoria   │ risco   │
+├────────────────┼─────────────┼─────────┤
+│              3 │ XSS         │ alto    │
+└────────────────┴─────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\3.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                         │ risco   │
+├────────────────┼───────────────────────────────────┼─────────┤
+│              2 │ Falta de Autenticação/Autorização │ alto    │
+├────────────────┼───────────────────────────────────┼─────────┤
+│              3 │ Upload de Arquivo Não Verificado  │ alto    │
+├────────────────┼───────────────────────────────────┼─────────┤
+│              3 │ Path Traversal                    │ alto    │
+└────────────────┴───────────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\4.phpa "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                  │ risco   │
+├────────────────┼────────────────────────────┼─────────┤
+│              3 │ Local File Inclusion (LFI) │ alto    │
+└────────────────┴────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\5.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              5 │ OS Command Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\6.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\7.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────┬─────────┐
+│   linha_codigo │ categoria          │ risco   │
+├────────────────┼────────────────────┼─────────┤
+│              4 │ Execução de código │ alto    │
+└────────────────┴────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\8.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                                        │ risco   │
+├────────────────┼──────────────────────────────────────────────────┼─────────┤
+│              3 │ Injeção CRLF (entrada não sanitizada)            │ médio   │
+├────────────────┼──────────────────────────────────────────────────┼─────────┤
+│              5 │ Armazenamento inseguro de senhas (texto simples) │ alto    │
+└────────────────┴──────────────────────────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\9.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────┬─────────┐
+│   linha_codigo │ categoria              │ risco   │
+├────────────────┼────────────────────────┼─────────┤
+│              3 │ CSRF                   │ alto    │
+├────────────────┼────────────────────────┼─────────┤
+│              4 │ Information Disclosure │ alto    │
+├────────────────┼────────────────────────┼─────────┤
+│              4 │ Log Injection          │ medio   │
+└────────────────┴────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\10.php "gpt-5-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-5-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                  │ risco   │
+├────────────────┼────────────────────────────┼─────────┤
+│              4 │ Redirecionamento Aberto    │ alto    │
+├────────────────┼────────────────────────────┼─────────┤
+│              4 │ Injeção de Cabeçalhos HTTP │ alto    │
+└────────────────┴────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\1.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              3 │ SQL Injection │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\2.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────┬─────────┐
+│   linha_codigo │ categoria   │ risco   │
+├────────────────┼─────────────┼─────────┤
+│              2 │ XSS         │ alto    │
+└────────────────┴─────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\3.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────────────┬─────────┐
+│   linha_codigo │ categoria                 │ risco   │
+├────────────────┼───────────────────────────┼─────────┤
+│              3 │ File Upload Vulnerability │ alto    │
+├────────────────┼───────────────────────────┼─────────┤
+│              3 │ Directory Traversal       │ médio   │
+├────────────────┼───────────────────────────┼─────────┤
+│              3 │ Remote Code Execution     │ alto    │
+└────────────────┴───────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\4.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                  │ risco   │
+├────────────────┼────────────────────────────┼─────────┤
+│              2 │ Local File Inclusion (LFI) │ alto    │
+└────────────────┴────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\5.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────┬─────────┐
+│   linha_codigo │ categoria         │ risco   │
+├────────────────┼───────────────────┼─────────┤
+│              4 │ Command Injection │ alto    │
+└────────────────┴───────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\6.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              2 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\7.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\8.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                                  │ risco   │
+├────────────────┼────────────────────────────────────────────┼─────────┤
+│              3 │ Injeção de Comandos/Armazenamento Inseguro │ alto    │
+└────────────────┴────────────────────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\9.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────┬─────────┐
+│   linha_codigo │ categoria    │ risco   │
+├────────────────┼──────────────┼─────────┤
+│              4 │ JS Injection │ alto    │
+└────────────────┴──────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\10.php "gpt-4.1-mini"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-mini
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              3 │ Open Redirect │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\1.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              4 │ SQL Injection │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\2.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────┬─────────┐
+│   linha_codigo │ categoria   │ risco   │
+├────────────────┼─────────────┼─────────┤
+│              2 │ XSS         │ alto    │
+└────────────────┴─────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\3.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                      │ risco   │
+├────────────────┼────────────────────────────────┼─────────┤
+│              3 │ Path Traversal / File Handling │ médio   │
+└────────────────┴────────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\4.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                            │ risco   │
+├────────────────┼──────────────────────────────────────┼─────────┤
+│              2 │ Directory Traversal / File Inclusion │ alto    │
+└────────────────┴──────────────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\5.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────┬─────────┐
+│   linha_codigo │ categoria         │ risco   │
+├────────────────┼───────────────────┼─────────┤
+│              3 │ Command Injection │ alto    │
+└────────────────┴───────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\6.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\7.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────┬─────────┐
+│   linha_codigo │ categoria          │ risco   │
+├────────────────┼────────────────────┼─────────┤
+│              4 │ PHP Code Injection │ alto    │
+└────────────────┴────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\8.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────┬─────────┐
+│   linha_codigo │ categoria              │ risco   │
+├────────────────┼────────────────────────┼─────────┤
+│              4 │ Insecure Data Handling │ alto    │
+└────────────────┴────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\9.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              4 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\10.php "gpt-4.1-nano"
+gatus - version 0.1
+OpenAI LLM Client: gpt-4.1-nano
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              3 │ Open Redirect │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\1.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              3 │ SQL Injection │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\2.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────┬─────────┐
+│   linha_codigo │ categoria   │ risco   │
+├────────────────┼─────────────┼─────────┤
+│              3 │ XSS         │ alto    │
+└────────────────┴─────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\3.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────────────────────────────────────┬─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│   linha_codigo │ categoria                                         │ risco   │ descricao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       │
+├────────────────┼───────────────────────────────────────────────────┼─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│              3 │ Path Traversal                                    │ alto    │ A função move_uploaded_file está sendo usada para mover arquivos para um diretório fixo (__DIR__ . '/uploads/'). No entanto, o nome do arquivo ($_FILES['file']['name']) é diretamente concatenado ao caminho sem validação. Um atacante pode manipular o nome do arquivo para incluir caracteres de travessia de diretório (ex: ../../etc/passwd) e escrever arquivos em locais arbitrários no sistema. Isso pode levar à execução remota de código, corrupção de dados ou negação de serviço. │
+├────────────────┼───────────────────────────────────────────────────┼─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│              3 │ File Upload Vulnerability (Arbitrary File Upload) │ alto    │ Não há validação do tipo de arquivo (MIME type) nem da extensão do arquivo que está sendo enviado. Um atacante pode enviar um arquivo malicioso, como um script PHP, e potencialmente executá-lo no servidor se ele for salvo em um diretório acessível via web. Isso pode levar à execução remota de código (RCE).                                                                                                                                                                             │
+└────────────────┴───────────────────────────────────────────────────┴─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\4.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                  │ risco   │
+├────────────────┼────────────────────────────┼─────────┤
+│              3 │ Local File Inclusion (LFI) │ alto    │
+└────────────────┴────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\5.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────┬─────────┐
+│   linha_codigo │ categoria         │ risco   │
+├────────────────┼───────────────────┼─────────┤
+│              4 │ Command Injection │ alto    │
+└────────────────┴───────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\6.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\7.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────┬───────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│   linha_codigo │ categoria      │ risco     │ descricao                                                                                                                                                                                                                       │
+├────────────────┼────────────────┼───────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│              4 │ Code Injection │ altíssimo │ A função 'eval()' é usada com entrada diretamente do usuário ('$_GET['code']'). Isso permite que um atacante execute qualquer código PHP no servidor, levando a comprometimento total do sistema (RCE - Remote Code Execution). │
+└────────────────┴────────────────┴───────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\8.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────┬─────────┐
+│   linha_codigo │ categoria   │ risco   │
+├────────────────┼─────────────┼─────────┤
+│              3 │ XSS         │ médio   │
+├────────────────┼─────────────┼─────────┤
+│              4 │ XSS         │ médio   │
+└────────────────┴─────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\9.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────┬─────────┐
+│   linha_codigo │ categoria    │ risco   │
+├────────────────┼──────────────┼─────────┤
+│              4 │ JS Injection │ alto    │
+├────────────────┼──────────────┼─────────┤
+│              4 │ XSS          │ alto    │
+└────────────────┴──────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\10.php "gemini-2.5-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.5-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                         │ risco   │
+├────────────────┼───────────────────────────────────┼─────────┤
+│              3 │ Open Redirect                     │ alto    │
+├────────────────┼───────────────────────────────────┼─────────┤
+│              3 │ XSS Refletido (via Open Redirect) │ médio   │
+└────────────────┴───────────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\1.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              3 │ SQL Injection │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\2.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────┬─────────┐
+│   linha_codigo │ categoria   │ risco   │
+├────────────────┼─────────────┼─────────┤
+│              2 │ XSS         │ alto    │
+└────────────────┴─────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\3.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────────┬─────────┐
+│   linha_codigo │ categoria                │ risco   │
+├────────────────┼──────────────────────────┼─────────┤
+│              3 │ Unrestricted File Upload │ alto    │
+└────────────────┴──────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\4.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬────────────────────┬─────────┐
+│   linha_codigo │ categoria          │ risco   │
+├────────────────┼────────────────────┼─────────┤
+│              2 │ PHP File Inclusion │ alto    │
+└────────────────┴────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\5.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              4 │ OS Command Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\6.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              2 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\7.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ PHP Object Injection │ crítico │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ JS Injection         │ crítico │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ SQL Injection        │ crítico │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ XSS                  │ crítico │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ Code Injection       │ crítico │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\8.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────────────────────────────┬─────────┐
+│   linha_codigo │ categoria                           │ risco   │
+├────────────────┼─────────────────────────────────────┼─────────┤
+│              3 │ PHP File Inclusion / Path Traversal │ alto    │
+└────────────────┴─────────────────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\9.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ PHP Object Injection │ alto    │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ XSS                  │ médio   │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\10.php "gemini-2.0-flash"
+gatus - version 0.1
+Gemini LLM Client: gemini-2.0-flash
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────┬─────────┐
+│   linha_codigo │ categoria        │ risco   │
+├────────────────┼──────────────────┼─────────┤
+│              3 │ Header Injection │ alto    │
+├────────────────┼──────────────────┼─────────┤
+│              3 │ Open Redirect    │ alto    │
+└────────────────┴──────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\1.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              3 │ SQL Injection │ alto    │
+├────────────────┼───────────────┼─────────┤
+│              4 │ SQL Injection │ alto    │
+├────────────────┼───────────────┼─────────┤
+│              5 │ SQL Injection │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\2.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬─────────────┬─────────┐
+│   linha_codigo │ categoria   │ risco   │
+├────────────────┼─────────────┼─────────┤
+│              2 │ XSS         │ alto    │
+├────────────────┼─────────────┼─────────┤
+│              3 │ XSS         │ alto    │
+└────────────────┴─────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\3.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────────┬─────────┐
+│   linha_codigo │ categoria                │ risco   │
+├────────────────┼──────────────────────────┼─────────┤
+│              3 │ Unrestricted File Upload │ alto    │
+├────────────────┼──────────────────────────┼─────────┤
+│              3 │ Path Traversal           │ alto    │
+├────────────────┼──────────────────────────┼─────────┤
+│              3 │ XSS                      │ medio   │
+└────────────────┴──────────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\4.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              2 │ Path Traversal       │ alto    │
+├────────────────┼──────────────────────┼─────────┤
+│              2 │ Local File Inclusion │ alto    │
+├────────────────┼──────────────────────┼─────────┤
+│              2 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\5.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────┬─────────┐
+│   linha_codigo │ categoria         │ risco   │
+├────────────────┼───────────────────┼─────────┤
+│              3 │ Command Injection │ alto    │
+├────────────────┼───────────────────┼─────────┤
+│              4 │ Command Injection │ alto    │
+└────────────────┴───────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\6.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              3 │ PHP Object Injection │ alto    │
+├────────────────┼──────────────────────┼─────────┤
+│              2 │ PHP Object Injection │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\7.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────────────┬─────────┐
+│   linha_codigo │ categoria             │ risco   │
+├────────────────┼───────────────────────┼─────────┤
+│              3 │ PHP Code Injection    │ crítico │
+├────────────────┼───────────────────────┼─────────┤
+│              3 │ Remote Code Execution │ crítico │
+└────────────────┴───────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\8.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬───────────────┬─────────┐
+│   linha_codigo │ categoria     │ risco   │
+├────────────────┼───────────────┼─────────┤
+│              3 │ SQL Injection │ alto    │
+├────────────────┼───────────────┼─────────┤
+│              4 │ SQL Injection │ alto    │
+├────────────────┼───────────────┼─────────┤
+│              5 │ Data Exposure │ alto    │
+└────────────────┴───────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\9.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────────┬─────────┐
+│   linha_codigo │ categoria            │ risco   │
+├────────────────┼──────────────────────┼─────────┤
+│              4 │ PHP Object Injection │ alto    │
+├────────────────┼──────────────────────┼─────────┤
+│              4 │ XSS                  │ alto    │
+├────────────────┼──────────────────────┼─────────┤
+│              4 │ SQL Injection        │ alto    │
+├────────────────┼──────────────────────┼─────────┤
+│              4 │ JS Injection         │ alto    │
+└────────────────┴──────────────────────┴─────────┘
+
+uv run python src/cli.py analyze C:\Users\adria\Desktop\repo\10.php "deepseek-chat"
+gatus - version 0.1
+Deepseek LLM Client: deepseek-chat
+Análise do arquivo realizada com sucesso
+
+┌────────────────┬──────────────────┬─────────┐
+│   linha_codigo │ categoria        │ risco   │
+├────────────────┼──────────────────┼─────────┤
+│              3 │ Open Redirect    │ alto    │
+├────────────────┼──────────────────┼─────────┤
+│              3 │ Header Injection │ alto    │
+└────────────────┴──────────────────┴─────────┘
