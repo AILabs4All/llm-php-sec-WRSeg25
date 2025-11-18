@@ -66,5 +66,5 @@ uv run python src/cli.py [OPCOES] COMANDOS [ARGUMENTOS]
 uv run python src/cli.py --help
 ```
 
-A documentação dos comandos disponíveis pode ser acessada em <a href="docs/1-funcionalidades.md">Funcionalidades </a>.
+A documentação dos comandos disponíveis pode ser acessada em <a href="1-funcionalidades.md">Funcionalidades </a>.
 
